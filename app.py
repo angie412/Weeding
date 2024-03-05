@@ -9,7 +9,7 @@ from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
 
-uri = "mongodb+srv://angie041237:ghdekdms98@clusterwedding.l2uvy5u.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://mongodb_id:pw@clusterwedding.l2uvy5u.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient(uri)
 db = client.weeding
 
